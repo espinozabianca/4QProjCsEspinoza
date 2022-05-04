@@ -192,13 +192,12 @@ function contactValid() { //onclick of submit button, checks if all required fie
   if (!checkPhone('cPhone', 'cPhoneError') || !checkEmail('contactForm', 'cEmail', 'cEmailError') || !checkMessage()) {
     alert("Please fill out required fields.");
     event.preventDefault(); //prevent form from submitting
-    return false;
   } 
     
   else { 
     alert('The form was submitted!');
-    return true;
   }
+  return false;
 }
 
 function localInput(value, elementID, key) { //saves user's name, email, and phone number to localStorage based on passed parameters 
