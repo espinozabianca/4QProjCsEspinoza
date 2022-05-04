@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Bianca Espinoza">
+    <meta name="keywords" content="Gigs&Swigs, gigs, tickets, reservation, forms, PH, css, js, html">
+    <meta name="revised" content="04-05-2022">
+    <meta name="description" content="Welcome to the Gigs and Swigs Online Site! Check out our upcoming gigs and reserve your tickets here."
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Gigs & Swigs</title>
+  
+    <link href="images/favicon.png" rel="icon" type="image" sizes="16x16">
+    
+    <!--bootstrap css & js for collapsible nav bar-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  
+  <body>
+    <!--collapsible nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="d-flex flex-grow-1">
+        <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+          <img src="images/horizontal-logo.png" width="170" height="50" alt="logo">
+        </a>
+        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="index.html">
+          <img src="images/logo.png" width="65" height="50" alt="logo">
+        </a>
+        <div class="w-100 text-right">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+      
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link m-2 menu-item">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="htdocs/gigs.html" class="nav-link m-2 menu-item">gigs</a>
+          </li>
+          <li class="nav-item">
+            <a href="htdocs/order.html" class="nav-link m-2 menu-item">buy tickets</a>
+          </li>
+          <li class="nav-item">
+            <a href="htdocs/about.html" class="nav-link m-2 menu-item">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="htdocs/contact.html" class="nav-link m-2 menu-item">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    
+    <header>
+      <h1>welcome to gigs & swigs!</h1>
+      <br>
+      <a class="button welcomeButton" href="htdocs/gigs.html">CHECK OUT OUR UPCOMING GIGS</a>
+    </header>
+    <br>
+    <br>
+
+    <div class="container">
+      <img class="indexAbout" src="images/gigSample.jpg" width="570">
+      <br><br>
+      <p>Gigs & Swigs is a bar & cafe located in Maginhawa, Quezon City that is dedicated to showcasing local artists through regular gigs and performances.</p> 
+      <p>Listen to your favorite indie OPM artists while we serve you comfort food and locally brewed coffee and beer.</p>
+      <br>
+      <a class="button" href="htdocs/about.html">LEARN MORE</a>       <!--redirects to about page-->
+    </div>
+    
+    
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <img src="images/coffeeDemo.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <h4>BASIC INFORMATION</h4>
+          <ul>
+            <li>Location: 56 1101 Maginhawa, Diliman, Quezon City (beside Tabs & Slabs)</li>
+            <li>Opening hours: 2 PM-2 AM (weekdays), 3 PM-12 AM (weekends and holidays)</li>
+            <li>Bar opens at 8 PM</li>
+            <li>Every client and employee must be fully vaccinated and present their vaccination card upon entry</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <hr>
+      <!--clicking on image/s makes you redirect to social media account/s-->
+      <div class="socMed">
+      <a href="https://www.facebook.com/bilie.espinoza/" target="_blank">
+        <div class="facebook"></div>
+      </a>
+        
+      <a href="https://twitter.com/espi_bianca" target="_blank">
+        <div class="twitter"></div>
+      </a>
+    
+      <a href="https://www.instagram.com/espi.bianca/" target="_blank">
+        <div class="instagram"></div>
+      </a>
+      <br>
+      <p>Copyright &copy B. Espinoza (9-Cesium)</p>
+      </div>
+    </footer>
+  </body>
+</html>
