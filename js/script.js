@@ -195,7 +195,8 @@ function contactValid() { //onclick of submit button, checks if all required fie
     return false;
   } 
     
-  else {    
+  else { 
+    alert('The form was submitted!');
     return true;
   }
 }
